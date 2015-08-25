@@ -42,7 +42,7 @@
   	<dependency>
   		<groupId>com.crawljax</groupId>
   		<artifactId>crawljax-core</artifactId>
-  		<version>3.6</version>
+  		<version>3.5</version>
   		<exclusions>
   			<exclusion>
 				<groupId>ch.qos.logback</groupId>
