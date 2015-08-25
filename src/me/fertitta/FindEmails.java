@@ -24,6 +24,12 @@ public class FindEmails {
 
 		String url = args[0];
 		
+		//Some simple input protection
+		if (!url.startsWith("http"))
+		{
+			url = "http://" + url;
+		}
+		
 		/*
 		 * Now we can start setting up the crawler. Crawljax is a crawler for java that works with dyncamic webpage
 		 * it will actually open a browswer (in this configuration) and perform the commands we want
